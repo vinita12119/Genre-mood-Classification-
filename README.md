@@ -5,7 +5,7 @@ Now a days everything is about personalization, which has increased the number o
 The valence and genres of music plays significant role  in music recommendation system. This project aimmed to assist music website to accurately recognize the genres and 
 valence of audio files by using models like -CNN, RCNN, CNN-LSTM and CNN-GRU. 
 
-## Data & Features ## </br>
+### Data & Features </br>
 Creted dataset by extracting 30-second music audios from Free Music Archive (FMA). It includes 5 music genres of 'Rock', 'Pop', 'Folk', 'Instrumental', and 'Electronic'. 
 Used librosa library to extract features of each audio clip like Mel-spectrogram and Mel-Frequency Cepstral Coefficients (MFCC) as inputs. 
 Feature Selection :Used Mel-spectrogram and MFCC because the frequency bands are equally spaced on the mel scale, which approximates the human auditory system’s response
