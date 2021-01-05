@@ -13,7 +13,7 @@ Feature Selection :Used Mel-spectrogram and MFCC because the frequency bands are
 
 Motivated by the work of Keunwoo Choi, I have used  Yu et al , Choi et al , for building our base models 
 
-## Model Spec ## </br>
+### Model Spec </br>
 Trained 5 different models with different number of convolution layers, FC layer , nodes, features like – MFCC & Mel-Spectrograms and adding LSTM and GRU layers. 
 The models uses 4-5 number of convolutional layers, Learning rate = 0.001, l2 lambda =0.002, Batch size = 75, 
 TimeDistributed wrapper layer outside flatten layer for LSTM, 1 LSTM layer, 2 GRU layers with regularized flattened and batch normalization every layer. 
